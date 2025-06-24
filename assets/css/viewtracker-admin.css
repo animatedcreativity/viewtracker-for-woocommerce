@@ -1,0 +1,206 @@
+/**
+ * ViewTracker Admin CSS
+ */
+
+/* Product Views Column */
+.column-product_views {
+    width: 80px;
+    text-align: center;
+}
+
+.viewtracker-count {
+    display: inline-block;
+    min-width: 30px;
+    text-align: center;
+    background: #f0f0f0;
+    border-radius: 3px;
+    padding: 2px 8px;
+    font-weight: 600;
+}
+
+/* Admin Pages */
+.viewtracker-analytics-wrap .viewtracker-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.viewtracker-analytics-wrap .viewtracker-export-button {
+    margin-left: auto;
+}
+
+/* Settings Page */
+.viewtracker-reset-buttons {
+    margin: 20px 0;
+}
+
+.viewtracker-reset-buttons .button {
+    margin-right: 10px;
+}
+
+/* Meta Box */
+#viewtracker_product_views .inside {
+    margin: 0;
+    padding: 12px;
+}
+
+.viewtracker-message {
+    display: none;
+    padding: 8px;
+    margin-top: 8px;
+    border-radius: 3px;
+}
+
+.viewtracker-message.success {
+    background-color: #dff2bf;
+    color: #4f8a10;
+}
+
+.viewtracker-message.error {
+    background-color: #ffbaba;
+    color: #d8000c;
+}
+
+/* Dashboard Widget */
+#viewtracker_dashboard_widget .inside {
+    margin: 0;
+    padding: 12px;
+}
+
+.viewtracker-popular-products {
+    margin: 0;
+}
+
+.viewtracker-popular-products li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.viewtracker-popular-products li:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.viewtracker-more-link {
+    margin: 12px 0 0 0;
+    text-align: right;
+}
+
+/* Analytics Page */
+.viewtracker-date-filter {
+    margin: 20px 0;
+    padding: 15px;
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+/* Analytics Table Thumbnails */
+.wp-list-table td img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border: 1px solid #e5e5e5;
+    padding: 2px;
+    background: #fff;
+    box-sizing: border-box;
+    display: block;
+}
+
+.viewtracker-date-inputs {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.viewtracker-date-inputs label {
+    margin-right: 15px;
+}
+
+.viewtracker-stats-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+.viewtracker-stats-box {
+    flex: 1;
+    min-width: 200px;
+    margin: 0 10px 20px;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    text-align: center;
+}
+
+.viewtracker-stat-number {
+    font-size: 36px;
+    font-weight: 600;
+    color: #2271b1;
+    margin-top: 10px;
+}
+
+/* Widget Preview Styling */
+.viewtracker-popular-products-widget {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.viewtracker-popular-products-widget li {
+    display: flex;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.viewtracker-popular-products-widget li:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.viewtracker-popular-products-widget .viewtracker-thumbnail {
+    flex: 0 0 60px;
+    margin-right: 10px;
+}
+
+.viewtracker-popular-products-widget .viewtracker-thumbnail img {
+    max-width: 60px;
+    height: auto;
+    display: block;
+}
+
+.viewtracker-popular-products-widget .viewtracker-product-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.viewtracker-popular-products-widget .viewtracker-views {
+    color: #777;
+    font-size: 0.9em;
+    margin: 3px 0;
+}
+
+.viewtracker-popular-products-widget .viewtracker-price {
+    font-weight: 600;
+}
+
+/* Responsive */
+@media screen and (max-width: 782px) {
+    .viewtracker-date-inputs {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .viewtracker-date-inputs label {
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+}
